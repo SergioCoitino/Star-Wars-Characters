@@ -1,5 +1,7 @@
 let currentPageUrl = 'https://swapi.dev/api/people/';
 
+// PAGINATION
+
 window.onload = async () => {
     try {
       await loadCharacters(currentPageUrl);
@@ -15,6 +17,9 @@ window.onload = async () => {
     backButton.addEventListener('click', loadPreviousPage);
   };
 
+
+
+
 async function loadCharacters(url) {
   const mainContent = document.getElementById('main-content');
   mainContent.innerHTML = ''; // limpar os resultados anteriores
@@ -26,7 +31,7 @@ async function loadCharacters(url) {
     responseJson.results.forEach((character) => {
       const card = document.createElement("div")
       card.style.backgroundImage = 
-      `url('https://starwars-visualguide.com/assets/img/characters/${character.url.replace(/\D/g, "")}.jpg')`
+      `url('https://vieraboschkova.github.io/swapi-gallery/static/assets/img/people/${character.url.replace(/\D/g, "")}.jpg')`
       card.className = "cards"
 
       const characterNameBG = document.createElement("div")
