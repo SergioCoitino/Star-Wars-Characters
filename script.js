@@ -53,7 +53,7 @@ async function loadCharacters(url) {
 
         const characterImage = document.createElement("div")
         characterImage.style.backgroundImage = 
-        `url('https://starwars-visualguide.com/assets/img/characters/${character.url.replace(/\D/g, "")}.jpg')`
+        `url('https://vieraboschkova.github.io/swapi-gallery/static/assets/img/people/${character.url.replace(/\D/g, "")}.jpg')`
         characterImage.className = "character-image"
 
         const name = document.createElement("span")

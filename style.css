@@ -30,6 +30,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .logo-img {
@@ -153,8 +154,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 10px;
-    margin: 40px 0 20px 0;
+    row-gap: 22px;
+    margin:20px 0;
 }
 
 .footer-logo {
@@ -205,4 +206,46 @@ footer {
     font-weight: lighter;
     color: gold;
 }
+.social-media-mobile{
+    display: none;
+}
+@media (max-width: 500px){
+    body{
+        background-attachment: fixed;
+    }
+    .logo-text{
+        font-size: 0.8rem;
+    }
+    .logo-img{
+        width: 30%;
+    }
+    .social-media{
+        display: none;
+    }
+    h2 {
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .social-media-mobile{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    }
 
+    .modal-content{
+        width: 75%;
+        height: 60vh;
+    }
+    .character-image{
+        margin-bottom: 10px;
+    }
+
+    .character-details{
+        font-size: 0.9rem;
+    }
+}
