@@ -48,7 +48,7 @@ Você pode acessar o projeto publicado no GitHub Pages pelo link abaixo 👇
 
 ## 📁 Estrutura de pastas
 
-
+```
 Star-Wars-Characters/
 │
 ├── assets/           # Imagens e ícones personalizados dos personagens
@@ -56,7 +56,7 @@ Star-Wars-Characters/
 ├── script.js         # Lógica e integração com a API
 ├── style.css         # Estilos e layout
 └── README.md         # Documentação do projeto
-
+```
 
 ## 🎨 Preview
 
