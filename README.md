@@ -29,13 +29,16 @@ O projeto utiliza a API [SWAPI](https://swapi.dev/), uma API pública e gratuita
 
 1. Clone o repositório:
 
-   git clone https://github.com/SergioCoitino/Star-Wars-Characters.git
+``` branch
 
+   git clone https://github.com/SergioCoitino/Star-Wars-Characters.git
+```
 
 2. Acesse a pasta do projeto:
 
+``` branch
    cd Star-Wars-Characters
-
+```
 3. Abra o arquivo `index.html` no seu navegador.
 
 > 💡 Dica: use a extensão **Live Server** (no VS Code) para visualizar as alterações em tempo real.
