@@ -31,7 +31,7 @@ async function loadCharacters(url) {
     responseJson.results.forEach((character) => {
       const card = document.createElement("div")
       card.style.backgroundImage = 
-      `url('https://vieraboschkova.github.io/swapi-gallery/static/assets/img/people/${character.url.replace(/\D/g, "")}.jpg')`
+      `url('https://starwarsgallery.netlify.app/assets/people/${character.url.replace(/\D/g, "")}.jpg')`
       card.className = "cards"
 
       const characterNameBG = document.createElement("div")
@@ -53,7 +53,7 @@ async function loadCharacters(url) {
 
         const characterImage = document.createElement("div")
         characterImage.style.backgroundImage = 
-        `url('https://vieraboschkova.github.io/swapi-gallery/static/assets/img/people/${character.url.replace(/\D/g, "")}.jpg')`
+        `url('https://starwarsgallery.netlify.app/assets/people/${character.url.replace(/\D/g, "")}.jpg')`
         characterImage.className = "character-image"
 
         const name = document.createElement("span")
